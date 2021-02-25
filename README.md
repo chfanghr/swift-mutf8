@@ -1,7 +1,7 @@
 # Swift MUTF-8
 
-This library is for those who want to write their own JVM in swift.
-It contains mutf-8 string encoding/decoding facility.
+This library is for those who want to write their own JVM in swift.<br>
+It contains mutf-8 string encoding/decoding facilities.
 
 
 ## Adding MUTF8 as a Dependency
