@@ -1,4 +1,4 @@
-# Swift MUTF-8
+# Swift MUTF-8 [![CI](https://github.com/chfanghr/swift-mutf8/actions/workflows/CI.yml/badge.svg)](https://github.com/chfanghr/swift-mutf8/actions/workflows/CI.yml)
 
 This library is for those who want to write their own JVM in swift.<br>
 It contains mutf-8 string encoding/decoding facilities.
