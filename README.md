@@ -24,7 +24,7 @@ Then, include `MUTF8` as a dependency for your executable target:
 
 ## Known issue(s)
 
-* Doesn't work correctly when decodes a string which originally contains emoji 
+* Doesn't work correctly when decodes a mutf8 encoded buffer which originally contains emoji 
 
 ## TODO
 
