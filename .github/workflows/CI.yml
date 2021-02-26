@@ -7,9 +7,9 @@ jobs:
       - uses: sersoft-gmbh/SwiftyActions@v1
         with: 
           release-version: 5.3
-       - name: Build(debug) 
-         run: swift build -c debug
-       - name: Build(release)
-         run: swift build -c release
-       - name: Run Package Tests
-         run: swift test -c debug --enable-test-discovery
+      - name: Build(debug) 
+        run: swift build -c debug
+      - name: Build(release)
+        run: swift build -c release
+      - name: Run Package Tests
+        run: swift test -c debug --enable-test-discovery
