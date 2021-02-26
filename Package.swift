@@ -10,5 +10,6 @@ let package = Package(
     dependencies: [],
     targets: [
         .target(name: "MUTF8"),
+        .testTarget(name: "MUTF8Tests", dependencies: ["MUTF8"]),
     ]
 )

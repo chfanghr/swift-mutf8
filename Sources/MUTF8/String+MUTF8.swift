@@ -17,6 +17,6 @@ public extension StringProtocol {
 
 public extension String {
     init?(mutf8Data data: [UInt8]) {
-        self.init(bytes: (try? MUTF8.decode(mutf8: data)) ?? [], encoding: .utf8)
+        self.init(decoding: (try? MUTF8.decode(mutf8: data)) ?? [], as: UTF8.self)
     }
 }
